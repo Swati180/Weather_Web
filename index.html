@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="par">
+
+        <div class="parent">
+
+            <div class="search_div">
+                <input type="text" placeholder="Type your city here" id="search">
+                <button type="submit" id="btn">search</button>
+            </div>
+
+            <div class="main">
+
+                <div class="main0">
+                    <p class="city" id="city"></p>
+                    <p id="tdy"></p>
+                    <p id="today"></p>
+                    <p class="temp"> <span id="tmp_logo"></span><span id="temp"></span> </p>
+                    <p class="env" id="env"></p>
+                </div>
+
+                <div class="main1">
+                    <p class="winds"><span id="sunrise"></span></p>
+                    <p class="visi"><span id="sunset"></span></p>
+                </div>
+
+                <div class="main2">
+                    <p class="hum"><span id="hum"></span> </p>
+                    <p class="dew"><span id="dew"></span></p>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <div class="we_data">
+
+            <div class="hour_div">
+                <h4>Next 24 hours</h4>
+                <div class="hours_data" id="hours_data">
+                <!-- ----------div for appending hours data---------- -->
+                </div>
+            </div>
+
+            <div class="week_div">
+                <h4>Weekly</h4>
+                <div class="days_data" id="days_data">
+                <!-- ----------div for appending weekly data---------- -->
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
